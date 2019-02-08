@@ -1,0 +1,85 @@
+header {
+  padding: 20px;
+  text-align: center;
+  background: #f15375;
+  color: white;
+  padding-top: 0px;
+}
+header p {
+  text-align: center;
+  color: rgb(145, 6, 64);
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 10px;
+}
+a {
+  color: white;
+  font-size: 30px;
+  padding: 50px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #970341;
+}
+
+.container {
+    width: 100%;
+    
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../slika.jpg);
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .landing {
+    max-width: 100%;
+    background-image: url(../slika.jpg);
+
+  }
+  .landing p {
+    text-align: center;
+    padding: 170px;
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+  .landing .recenica {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+
+  }
